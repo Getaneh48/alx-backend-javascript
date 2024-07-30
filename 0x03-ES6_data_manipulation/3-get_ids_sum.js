@@ -1,6 +1,5 @@
 function getStudentIdsSum(students) {
-	const sum = students.reduce((acc, val) => acc + val.id, 0);
-	return sum;
+  return students.reduce((acc, val) => acc + val.id, 0);
 }
 
 export default getStudentIdsSum;
